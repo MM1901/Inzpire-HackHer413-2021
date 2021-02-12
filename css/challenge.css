@@ -140,3 +140,20 @@ p {
 
   align-items: center;
 }
+
+.uploadPhoto {
+  font-size: 100px !important;
+  color: orange;
+  box-sizing: border-box;
+  padding: 5px;
+  margin-left: 0;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  margin-left: -180px;
+}
+.uploadDP {
+  background: #333333;
+  border: none;
+  height: 140px;
+  padding: 5px;
+}
