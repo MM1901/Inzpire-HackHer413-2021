@@ -104,3 +104,39 @@ p {
   align-items: center;
   justify-content: space-evenly;
 }
+
+.box {
+  display: flex;
+  width: 70%;
+  border: none;
+  margin: 20px;
+  padding: 20px 30px;
+  background-color: #333333;
+  border-radius: 24px;
+}
+.icon {
+  display: inline;
+}
+.desc {
+  display: inline;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.viewButton {
+  display: inline;
+  float: right;
+  background-color: #fa743f;
+  color: white;
+  border: none;
+}
+
+.viewButton:hover {
+  color: white;
+  transform: scale(1.05);
+}
+
+.project {
+  margin: 10px auto;
+
+  align-items: center;
+}
