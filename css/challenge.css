@@ -9,6 +9,23 @@
   box-sizing: border-box;
   color: rgba(255, 255, 255, 0.8);
 }
+.inputField:focus {
+  background: #333333;
+  border: none;
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+  color: inherit;
+}
+
 .searchBar {
   background: #333333;
   border: none;

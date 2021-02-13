@@ -111,7 +111,20 @@ i {
   margin-bottom: 40px;
 }
 
+.emailField:focus {
+  background: #212121;
+  border: 1.05139px solid rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, 0.8);
+}
+
 .passwordField {
+  background: #212121;
+  border: 1.05139px solid rgba(255, 255, 255, 0.5);
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, 0.8);
+}
+.passwordField:focus {
   background: #212121;
   border: 1.05139px solid rgba(255, 255, 255, 0.5);
   box-sizing: border-box;
@@ -125,4 +138,11 @@ i {
 }
 .here {
   color: cyan;
+}
+button .login {
+  text-decoration: none;
+}
+
+button .login:hover {
+  text-decoration: none;
 }
